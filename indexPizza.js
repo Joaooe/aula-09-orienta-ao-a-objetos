@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var sabores_1 = require("./sabores");
+var Pizza_1 = require("./Pizza");
+var pizza1 = new Pizza_1.Pizza(sabores_1.Sabores.queijo, "Grande", 35);
+var pizza2 = new Pizza_1.Pizza(sabores_1.Sabores.calabresa, "Média", 30);
+var pizza3 = new Pizza_1.Pizza(sabores_1.Sabores.coracao, "Família", 40);
+var pizza4 = new Pizza_1.Pizza(sabores_1.Sabores.bacon, "Família", 40);
+console.log(pizza1.descricao());
+console.log(pizza2.descricao());
+console.log(pizza3.descricao());
+console.log(pizza4.descricao());
